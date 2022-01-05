@@ -102,6 +102,10 @@ body {
   text-transform: capitalize;
 }
 
+.missions {
+  margin-bottom: 5rem;
+}
+
 .mission-2022 {
   display: flex;
   justify-content: space-around;
@@ -149,6 +153,60 @@ body {
   -o-border-radius: 2rem;
 }
 
-.develope {
-  background-image: url('../images/shapes/')
+.develop {
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.coding-img {
+  width: 35%;
+  padding: 2rem 1.5rem;
+}
+
+.coding-img img {
+  width: 100%;
+}
+
+.develop-text {
+  width: 55%;
+}
+.develop-text h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.develop-text h2 span {
+  display: block;
+}
+
+.community {
+  background-image: url("../images/shapes/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 200px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.5rem;
+}
+
+.footer h3 span {
+  color: #cd4334;
 }
