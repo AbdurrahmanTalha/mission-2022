@@ -1,0 +1,154 @@
+/* Colors
+ primary color #333 
+ secondary colors: #417E66
+ Button Color: #CD4334
+ More colors, #417E66
+  #AECBA6
+  #F4E9BF */
+
+/* Reset code */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  /* line-height: 2.2rem; */
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.text-content {
+  padding: 1.2rem 2rem;
+  text-align: left;
+  margin-left: 3rem;
+}
+.title {
+  color: #333;
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 1.8rem;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.title:before {
+  left: -2rem;
+  position: absolute;
+  content: "";
+  height: 15.8rem;
+  top: 2.6rem;
+  width: 0.5rem;
+  background-color: #cd4334;
+}
+
+.title-span {
+  color: #cd4334;
+}
+
+.desc {
+  font-size: 2rem;
+  padding: 1.5rem 1.5rem;
+}
+
+.image-content {
+  width: 100%;
+}
+
+.image-content img {
+  width: 80%;
+}
+
+.btn {
+  background-color: #417e66;
+  color: #f4e9bf;
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 1.5rem 3rem;
+  text-transform: capitalize;
+  display: inline-block;
+  margin: 2rem 0rem;
+  font-size: 1.8rem;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.text-content h5 {
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+.secondry-title {
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+
+.mission-2022 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.mission-title {
+  padding: 1.5rem 1.5rem;
+}
+
+.mission {
+  background-color: #edf5f6;
+  width: 30%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.div-img {
+  padding: 3rem;
+}
+
+.div-img img {
+  width: 20rem;
+}
+
+.vission {
+  background-color: #ffeeee;
+  border-radius: 2rem;
+  width: 30%;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.goal {
+  background-color: #fff4d6;
+  border-radius: 2rem;
+  width: 30%;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.develope {
+  background-image: url('../images/shapes/')
+}
