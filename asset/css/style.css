@@ -11,7 +11,7 @@ body {
   color: #333;
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
-  font-weight: 400; 
+  font-weight: 400;
 }
 .title {
   color: #333;
@@ -44,7 +44,7 @@ body {
   padding: 1.5rem 1.5rem;
 }
 .btn {
-  background-color: #417e66;
+  background-color: #ff3636;
   border-radius: 15px;
   border: none;
   color: #f4e9bf;
@@ -53,19 +53,19 @@ body {
   margin: 2rem 0rem;
   padding: 1.5rem 3rem;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.5s;
   text-transform: capitalize;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .btn:hover {
-  background-color: #ff3636;
+  background-color: #333;
 }
 .text-center {
   text-align: center;
@@ -239,7 +239,7 @@ body {
 
 /* Footer-area Starts here */
 .footer {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   text-align: center;
 }
@@ -250,6 +250,9 @@ body {
 }
 .footer h3 span {
   color: #cd4334;
+}
+.footer p {
+  padding: 1rem;
 }
 
 /* Footer-area ends here */
